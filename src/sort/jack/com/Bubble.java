@@ -18,6 +18,7 @@ public class Bubble {
 //					numbers[i+1]=numbers[i];
 //					numbers[i]=temp;
 					swap(i, numbers);
+					
 				}
 			}
 		}
