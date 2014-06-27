@@ -10,6 +10,7 @@ public class Customer implements Observer {
 	@Override
 	public void update(int price) {
 		System.out.println("Customer get the discount price is: " + price);
+		System.out.println("Customer get the discount price is: " + price);
 
 	}
 	public void watch(Observer ob){
