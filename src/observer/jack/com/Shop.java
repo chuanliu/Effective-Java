@@ -5,13 +5,14 @@ import java.util.List;
 
 public class Shop {
 	private List<Observer> observers;
+	private int price;
+	
 	public List<Observer> getObservers() {
 		return observers;
 	}
 	public void setObservers(List<Observer> observers) {
 		this.observers = observers;
 	}
-	private int price;
 	
 	Shop() {
 		this.observers = new ArrayList<Observer>();
